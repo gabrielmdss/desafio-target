@@ -47,7 +47,7 @@ alternativaC([ 0, 1, 4, 9, 16, 25, 36])
 alternativaD = (arrayD) => {
 
     ultimoNumero = arrayD.length * 2;
-    proximoNumero = Math.pow(ultimoNumero, 2);
+    proximoNumero = ultimoNumero **2;
     
     console.log(`Resposta da alternativa D: ${proximoNumero}`)
 
